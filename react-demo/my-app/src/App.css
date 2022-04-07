@@ -1,0 +1,65 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+}
+.main{
+    padding: 0;
+    margin: 0;
+}
+.Home h1,ul{
+    text-align: center;
+
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    background-color:  #cef382;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+height: auto;
+display: flex;
+padding:0;
+margin: 0;
+width:100%
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li{
+ width: auto;
+ height: 30px;
+ font-size: 20px;
+ list-style-type: none;
+ margin: 5px ;
+ padding: 15px;
+ justify-content: center;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    color: #9a5d86;
+}
+
+.Home{
+    text-align:center;
+    background-image: url("/public/42277.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.Home h1{
+    padding: 17%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+}

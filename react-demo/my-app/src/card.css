@@ -1,0 +1,83 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 20rem));
+    gap:2rem;
+    justify-content: center;
+}
+
+.card{
+    margin-top: 3rem;
+    overflow: hidden;
+    box-shadow: 0 2px 20px gray ;
+    border-radius:0.2 rem ;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+}
+.card_image{
+    height: 12rem;
+    width:100%;
+    object-fit: cover;
+}
+
+.card_title{
+    padding: 1rem;
+}
+
+.card_description{
+    padding: 0 1rem;
+}
+
+.card_btn{
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin:1rem;
+    border: 2px solid #c4fc54;
+    border-radius: 2rem;
+    transition: background 200ms ease-in, color 200ms ease in;
+
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+.card_btn:hover{
+    background-color:  #9a5d86;
+    cursor: pointer;
+}
+
+.car{
+    margin: 5rem;
+    padding: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+    overflow: hidden;
+    box-shadow: 0 2px 20px gray ;
+    border-radius:0.2 rem ;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;   
+}
+
+.car p{
+    font-weight: bold;
+    color: black;
+}
+
+.car h1{
+    color: #d54da8;
+}
+
+a:hover{
+    color:whitesmoke;
+}
